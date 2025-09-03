@@ -51,8 +51,11 @@
     <Compile Include="KW35_25\TestAdditionController.cs" />
     <Compile Include="KW35_25\Variabel.cs" />
     <Compile Include="KW35_25\Tier.cs" />
+    <Compile Include="KW36_25\Aufgaben.cs" />
     <Compile Include="KW36_25\Kommentare.cs" />
     <Compile Include="KW36_25\KonvertierungsTypen.cs" />
+    <Compile Include="KW36_25\LogicApp.cs" />
+    <Compile Include="KW36_25\QuizApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
