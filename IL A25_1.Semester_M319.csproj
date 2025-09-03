@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IL_A25_1.Semester_M319.KW35_25.TestAdditionController</StartupObject>
+    <StartupObject>IL_A25_1.Semester_M319.KW35_25.Tier</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,8 @@
     <Compile Include="KW35_25\TestAdditionController.cs" />
     <Compile Include="KW35_25\Variabel.cs" />
     <Compile Include="KW35_25\Tier.cs" />
+    <Compile Include="KW36_25\Kommentare.cs" />
+    <Compile Include="KW36_25\KonvertierungsTypen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

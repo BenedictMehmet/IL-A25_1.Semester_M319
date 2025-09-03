@@ -19,5 +19,17 @@ namespace IL_A25_1.Semester_M319.KW35_25
          */
 
 
+        static void Main(string[]args)
+        {
+            string firstName = "Max";
+
+            string lastName = "Bob";
+
+            string city = "Luzern";
+
+            Console.WriteLine($"Mein Name ist {firstName} {lastName} und wohne in {city}");
+        }
+
+
     }
 }
