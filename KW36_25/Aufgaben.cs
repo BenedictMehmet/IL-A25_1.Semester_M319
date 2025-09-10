@@ -25,7 +25,7 @@ namespace IL_A25_1.Semester_M319.KW36_25
          *    75-89  -> "Gut"
          *    50-74  -> "Befriedigend"
          *    0-49   -> "Nicht bestanden"
-         * 3. Bonus: Prüfe, ob die Punktzahl ausserhalb des gültigen Bereichs liegt.
+         * 3. Bonus: Prüfe, ob die Punktzahl ausserhalb des gültigen Bereichs liegt
          */
 
         /* Übung 3: Temperaturcheck
