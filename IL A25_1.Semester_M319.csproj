@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IL_A25_1.Semester_M319.KW37_25.TryParse</StartupObject>
+    <StartupObject>IL_A25_1.Semester_M319.KW37_25.Lösung1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -58,6 +58,8 @@
     <Compile Include="KW36_25\QuizApp.cs" />
     <Compile Include="KW37_25\Addition.cs" />
     <Compile Include="KW37_25\Aufgaben.cs" />
+    <Compile Include="KW37_25\Lösung1.cs" />
+    <Compile Include="KW37_25\Lösung2.cs" />
     <Compile Include="KW37_25\TryParse.cs" />
     <Compile Include="KW37_25\Var.cs" />
     <Compile Include="KW37_25\VergleichsOperatoren.cs" />
