@@ -28,10 +28,10 @@ namespace IL_A25_1.Semester_M319.KW36_25
             Console.WriteLine(question1);
             string input1 = Console.ReadLine();
 
-            if(answer1 == input1)
+            if (answer1 == input1)
             {
                 Console.WriteLine("Korrekt");
-                score++;
+                score++; // 0 + 1 = 1
             }
             else
             {

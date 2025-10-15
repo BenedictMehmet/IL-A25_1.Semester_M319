@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IL_A25_1.Semester_M319.KW37_25.Lösung1</StartupObject>
+    <StartupObject>IL_A25_1.Semester_M319.KW42_25.AverageCalculator</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,6 +64,15 @@
     <Compile Include="KW37_25\Var.cs" />
     <Compile Include="KW37_25\VergleichsOperatoren.cs" />
     <Compile Include="KW37_25\ZufallsZahl.cs" />
+    <Compile Include="KW42_25\Aufgaben.cs" />
+    <Compile Include="KW42_25\AverageCalculator.cs" />
+    <Compile Include="KW42_25\DoWhile.cs" />
+    <Compile Include="KW42_25\DoWhile2.cs" />
+    <Compile Include="KW42_25\DoWhile3.cs" />
+    <Compile Include="KW42_25\FoorLoop.cs" />
+    <Compile Include="KW42_25\Loops.cs" />
+    <Compile Include="KW42_25\TryParse1.cs" />
+    <Compile Include="KW42_25\WhileLoop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
