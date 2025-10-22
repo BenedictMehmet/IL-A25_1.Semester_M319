@@ -32,8 +32,6 @@ namespace IL_A25_1.Semester_M319.KW42_25
             while (tipp != geheimZahl);
 
             Console.WriteLine("Richtig geraten");
-
-        }
-            
+        }   
     }
 }

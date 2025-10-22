@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace IL_A25_1.Semester_M319.KW42_25
 {
-    internal class Aufgaben
-    {
-        using System;
+  
 
 namespace LoopUebungen
     {
@@ -38,5 +36,4 @@ namespace LoopUebungen
         }
     }
 
-}
 }
