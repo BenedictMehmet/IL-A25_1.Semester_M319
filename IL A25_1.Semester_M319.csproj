@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IL_A25_1.Semester_M319.KW43_25.Array2</StartupObject>
+    <StartupObject>IL_A25_1.Semester_M319.KW44_25.Parameter1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -77,7 +77,14 @@
     <Compile Include="KW43_25\AdventureGame.cs" />
     <Compile Include="KW43_25\Array.cs" />
     <Compile Include="KW43_25\Array2.cs" />
+    <Compile Include="KW43_25\Aufgabe1.cs" />
+    <Compile Include="KW43_25\Aufgabe2.cs" />
+    <Compile Include="KW43_25\Aufgabe3.cs" />
     <Compile Include="KW43_25\Aufgaben.cs" />
+    <Compile Include="KW44_25\Aufgaben.cs" />
+    <Compile Include="KW44_25\Methoden1.cs" />
+    <Compile Include="KW44_25\Methods2.cs" />
+    <Compile Include="KW44_25\Parameter1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
