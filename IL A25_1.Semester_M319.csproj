@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IL_A25_1.Semester_M319.KW44_25.Parameter1</StartupObject>
+    <StartupObject>IL_A25_1.Semester_M319.KW45_25.Übung6</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -85,6 +85,12 @@
     <Compile Include="KW44_25\Methoden1.cs" />
     <Compile Include="KW44_25\Methods2.cs" />
     <Compile Include="KW44_25\Parameter1.cs" />
+    <Compile Include="KW45_25\WetterSimulation.cs" />
+    <Compile Include="KW45_25\Übung1.cs" />
+    <Compile Include="KW45_25\Übung2.cs" />
+    <Compile Include="KW45_25\Übung3.cs" />
+    <Compile Include="KW45_25\Übung5.cs" />
+    <Compile Include="KW45_25\Übung6.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
