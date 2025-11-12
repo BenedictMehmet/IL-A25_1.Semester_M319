@@ -91,6 +91,8 @@
     <Compile Include="KW45_25\Übung3.cs" />
     <Compile Include="KW45_25\Übung5.cs" />
     <Compile Include="KW45_25\Übung6.cs" />
+    <Compile Include="KW46_25\Aufgaben.cs" />
+    <Compile Include="KW46_25\WetterSimulation2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
