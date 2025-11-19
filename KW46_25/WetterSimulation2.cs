@@ -58,7 +58,8 @@ namespace IL_A25_1.Semester_M319.KW46_25
 
             double durschnitt = DurchschnittBerrechnen(temperatur);
 
-
+            
+            Console.WriteLine($"Durschnittstemperatur ist: {durschnitt}");
             Console.WriteLine($"{FindeHäufigsteBedingung(wetterBedingungen)}");
         }
 
@@ -80,17 +81,21 @@ namespace IL_A25_1.Semester_M319.KW46_25
 
         // Recherchiert diese Methode zu Hause. Zeile für Zeile. Was kann es sein und warum?
 
+
         private string FindeHäufigsteBedingung(string[] bedingungen)
         {
             int zähler = 0;
             string häufigste = bedingungen[0]; // Erste Wetterbedingung im Array
 
 
+
+            string[] möglicheBedingungen = { "Sonnig", "Bewölk", "Regen", "Schnee" };
             // Äussere Schleife: prüft jede Bedingung
             for (int i = 0; i < bedingungen.Length; i++)
             {
                 int tempZähler = 0;
 
+              
                 // Innere Schleife: vergleicht die aktuelle Bedingungen mit allen anderen
                 for (int j = 0; j < bedingungen.Length; j++)
                 {
@@ -113,3 +118,44 @@ namespace IL_A25_1.Semester_M319.KW46_25
 
     }
 }
+
+
+/*
+Die erste for-Schleife beginnt mit dem ersten Element in bedingungen.Length.
+Sie nimmt die erste Option in der Liste als Ausgangspunkt.
+
+Dann startet die zweite for-Schleife und durchsucht von Index 0 aus jedes Wort in der Liste.
+Immer wenn ein Wort dem aktuellen Element entspricht (demjenigen an Index i,
+also dem Startwert), wird tempCount erhöht.
+
+Nach dieser Überprüfung kommt die letzte if-Abfrage zum Zug.
+Wenn tempCount grösser ist als count, dann wird dieser Wert count zugewiesen
+und die aktuelle Wetterbedingung wird häufigste zugeteilt.
+Das Element conditions[i] wird aus der oben erwähnten Schleife entnommen,
+da es genau diese Wetterbedingung aus der Liste ausliest.
+
+Nun folgt die zweite Runde. Das heisst, der nächste Index, also 1, wird gewählt.
+Zunächst ändert sich nichts.
+Dann läuft die nächste for-Schleife.
+Angenommen count ist 3 und der neue tempCount ist kleiner als 3,
+dann wird die letzte if-Abfrage nicht ausgeführt.
+
+Die erste for-Schleife beginnt mit dem ersten Element in conditions.Length.
+Sie nimmt die erste Option in der Liste als Ausgangspunkt.
+
+Dann startet die zweite for-Schleife und durchsucht von Index 0 aus jedes Wort in der Liste.
+Immer wenn ein Wort dem aktuellen Element entspricht (demjenigen an Index i,
+also dem Startwert), wird tempCount erhöht.
+
+Nach dieser Überprüfung kommt die letzte if-Abfrage zum Zug.
+Wenn tempCount grösser ist als count, dann wird dieser Wert count zugewiesen
+und die aktuelle Wetterbedingung wird mostCommon zugeteilt.
+Das Element conditions[i] wird aus der oben erwähnten Schleife entnommen,
+da es genau diese Wetterbedingung aus der Liste ausliest.
+
+Nun folgt die zweite Runde. Das heisst, der nächste Index, also 1, wird gewählt.
+Zunächst ändert sich nichts.
+Dann läuft die nächste for-Schleife.
+Angenommen count ist 3 und der neue tempCount ist kleiner als 3,
+dann wird die letzte if-Abfrage nicht ausgeführt.
+*/

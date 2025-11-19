@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IL_A25_1.Semester_M319.KW45_25.Übung6</StartupObject>
+    <StartupObject>IL_A25_1.Semester_M319.KW47_25.CustomerApp</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -93,6 +93,11 @@
     <Compile Include="KW45_25\Übung6.cs" />
     <Compile Include="KW46_25\Aufgaben.cs" />
     <Compile Include="KW46_25\WetterSimulation2.cs" />
+    <Compile Include="KW47_25\Aufgabe1.cs" />
+    <Compile Include="KW47_25\Aufgabe1Main.cs" />
+    <Compile Include="KW47_25\Aufgaben.cs" />
+    <Compile Include="KW47_25\Customer.cs" />
+    <Compile Include="KW47_25\CustomerApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
