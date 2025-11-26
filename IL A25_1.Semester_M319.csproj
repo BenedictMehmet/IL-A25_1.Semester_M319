@@ -98,6 +98,7 @@
     <Compile Include="KW47_25\Aufgaben.cs" />
     <Compile Include="KW47_25\Customer.cs" />
     <Compile Include="KW47_25\CustomerApp.cs" />
+    <Compile Include="KW48_25\AufgabeOptional.cs" />
     <Compile Include="KW48_25\DoWhileAuffrischung.cs" />
     <Compile Include="KW48_25\Lösung2.cs" />
     <Compile Include="KW48_25\Lösung2App.cs" />
