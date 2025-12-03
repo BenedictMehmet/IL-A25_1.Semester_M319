@@ -49,6 +49,8 @@ namespace IL_A25_1.Semester_M319.KW49_25
 
    1. Erstelle ein Programm, das den Benutzer nach zwei Zahlen fragt.
       - Die Zahlen sollen als double eingelesen werden.
+      - Verwende die Try.Parse Methode
+
 
    2. Frage den Benutzer nach der gewünschten Rechenoperation:
       - + für Addition

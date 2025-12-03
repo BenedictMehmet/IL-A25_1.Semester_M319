@@ -45,6 +45,12 @@ namespace IL_A25_1.Semester_M319.KW36_25
             Console.WriteLine(parsedBool);
 
 
+            // string -> char
+            string buchstabe = "A";
+            char c = char.Parse(buchstabe);
+            Console.WriteLine(c);
+
+
             /* Aufgabe: string zu double
          * 
          * 1. Erstelle eine string Variable mit einer Zahl (z. B. "12.34").
