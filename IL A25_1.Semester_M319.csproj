@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IL_A25_1.Semester_M319.KW47_25.CustomerApp</StartupObject>
+    <StartupObject>IL_A25_1.Semester_M319.KW49_25.SwitchTag</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -102,6 +102,11 @@
     <Compile Include="KW48_25\DoWhileAuffrischung.cs" />
     <Compile Include="KW48_25\Lösung2.cs" />
     <Compile Include="KW48_25\Lösung2App.cs" />
+    <Compile Include="KW49_25\Aufgaben.cs" />
+    <Compile Include="KW49_25\DoWhileMenü.cs" />
+    <Compile Include="KW49_25\GültigeEingabeDoWhile.cs" />
+    <Compile Include="KW49_25\IfElseSwitch.cs" />
+    <Compile Include="KW49_25\SwitchTag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
