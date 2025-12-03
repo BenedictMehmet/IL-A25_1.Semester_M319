@@ -34,5 +34,40 @@ namespace IL_A25_1.Semester_M319.KW49_25
         // - Eingabe: 3
         // - Ausgabe: Salat - 5.99 EUR
         // ---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+        /*
+   Aufgabe: Einfache Taschenrechner-Funktion mit Switch
+
+   1. Erstelle ein Programm, das den Benutzer nach zwei Zahlen fragt.
+      - Die Zahlen sollen als double eingelesen werden.
+
+   2. Frage den Benutzer nach der gewünschten Rechenoperation:
+      - + für Addition
+      - - für Subtraktion
+      - * für Multiplikation
+      - / für Division
+
+   3. Verwende eine Switch-Anweisung, um die gewählte Operation auszuführen.
+
+   4. Falls der Benutzer eine ungültige Operation eingibt, soll eine Fehlermeldung erscheinen.
+
+   5. Bei einer Division soll geprüft werden, ob die zweite Zahl ungleich 0 ist.
+      - Falls die zweite Zahl 0 ist, soll eine Fehlermeldung ausgegeben werden und das Programm beendet werden.
+
+   6. Nach erfolgreicher Berechnung soll das Ergebnis auf der Konsole angezeigt werden.
+
+   Hinweis:
+   - Achte darauf, dass die Eingaben korrekt in double bzw. char umgewandelt werden.
+*/
+
     }
 }
