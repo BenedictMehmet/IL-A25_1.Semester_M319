@@ -107,6 +107,7 @@
     <Compile Include="KW49_25\GültigeEingabeDoWhile.cs" />
     <Compile Include="KW49_25\IfElseSwitch.cs" />
     <Compile Include="KW49_25\SwitchTag.cs" />
+    <Compile Include="KW49_25\WhileAuffrischung.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
