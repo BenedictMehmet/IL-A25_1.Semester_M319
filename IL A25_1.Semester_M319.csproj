@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IL_A25_1.Semester_M319.KW49_25.SwitchTag</StartupObject>
+    <StartupObject>IL_A25_1.Semester_M319.KW50_25.QuizApp.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -108,6 +108,10 @@
     <Compile Include="KW49_25\IfElseSwitch.cs" />
     <Compile Include="KW49_25\SwitchTag.cs" />
     <Compile Include="KW49_25\WhileAuffrischung.cs" />
+    <Compile Include="KW50_25\Aufgabe.cs" />
+    <Compile Include="KW50_25\QuizApp\Program.cs" />
+    <Compile Include="KW50_25\QuizApp\Question.cs" />
+    <Compile Include="KW50_25\QuizApp\Quiz.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
